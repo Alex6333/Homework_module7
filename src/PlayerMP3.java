@@ -1,6 +1,6 @@
 public class PlayerMP3 extends MusicPlayer implements Soundable{
     @Override
-    void playMusic() {
+    void playbackMusic() {
         System.out.println(this);
     }
 

@@ -1,4 +1,4 @@
 public abstract class MusicPlayer {
 
-    abstract void playMusic();
+    abstract void playbackMusic();
 }
