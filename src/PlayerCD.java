@@ -1,12 +1,12 @@
 public class PlayerCD extends MusicPlayer implements Soundable{
     @Override
-    void playMusic() {
+    void playbackMusic() {
         System.out.println(this);
     }
 
     @Override
     public String toString() {
-        return "Playing CD";
+        return "Playing from CD";
     }
 
     @Override
